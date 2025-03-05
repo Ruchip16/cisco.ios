@@ -45,4 +45,3 @@
   when: ansible_net_version == "15.6(2)T"
   always:
     - ansible.builtin.include_tasks: _remove_config_vlan_config.yaml
-
